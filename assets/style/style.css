@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.debug{
+  border: 2px dashed black;
+}
+
+.debug-white{
+  border: 2px dashed white;
+}
+
+/* header */
+
+header{
+  height: 80px;
+  background-color: rgb(172, 215, 230);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .header-bar{
+  display: flex;
+  width: 100%;
+  background-color: rgb(217, 165, 33);
+}
+
+header .header-bar .header-logo{
+  width: 20%;
+  padding: 10px;
+}
+
+header .header-bar nav{
+  width: 60%;
+  padding: 10px;
+}
+
+header .header-bar .login{
+  width: 20%;
+  padding: 10px;
+  text-align: end;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+
+/* jumbotron */
+
+section.jumbotron{
+  background-color: rgb(0, 0, 140);
+  padding: 60px 0;
+}
+
+section.jumbotron div.downloads{
+  width: 900px;
+  height: 400px;
+  background-color: rgb(237, 130, 237);
+}
+
+/* main */
+
+main .main-section{
+  width: 100%;
+  height: 100%;
+}
+
+main .main-section-grey{
+  background-color: rgb(212, 212, 212);
+}
+
+main div.container{
+  display: flex;
+  padding: 60px 0;
+}
+
+main section .main-img{
+  width: 60%;
+  height: 500px;
+  background-color: rgb(30, 144, 255);
+}
+
+main section .main-text{
+  width: 40%;
+  height: 500px;
+  background-color: rgb(255, 192, 203);
+}
+
+main section .main-big{
+  width: 100%;
+  height: 900px;
+  background-color: rgb(34, 140, 34);
+}
+
+/* footer */
+
+footer section {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(34, 38, 41);
+}
+
+footer .footer-top{
+  border-bottom: 2px solid rgb(125, 126, 128);
+}
+
+footer section div.ftop-container{
+  display: flex;
+  padding: 10px 0 60px;
+}
+
+footer section div.fbottom-container{
+  display: flex;
+  padding-top: 40px;
+}
+
+footer section .footer-big{
+  flex-grow: 2;
+  height: 600px;
+  background-color: rgb(240, 127, 127);
+}
+
+footer section .footer-small{
+  flex-grow: 1;
+  height: 600px;
+  background-color: rgb(32, 179, 171);
+}
+
+footer section .footer-end{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(128, 255, 212);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section .footer-logo, footer section .footer-button{
+  background-color: rgb(255, 181, 192);
+  padding: 7px 10px;
+}
