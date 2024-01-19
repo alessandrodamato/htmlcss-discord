@@ -3,38 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- custom style -->
   <link rel="stylesheet" href="assets/style/style.css">
+
   <title>Discord</title>
 </head>
 <body>
 
-  <header>
+  <header class="d-flex">
 
-    <div class="container header-bar">
+    <div class="container d-flex header-bar">
       
-      <div class="debug header-logo">logo</div>
+      <div class="d-flex header-logo"><img src="assets/img/logo.svg" alt="Logo"></div>
 
-      <nav class="debug">
-        <ul>
+      <nav>
+        <ul class="d-flex">
           <li>
-            <a href="#">link</a>
+            <a href="#">Scarica</a>
           </li>
           <li>
-            <a href="#">link</a>
+            <a href="#">Perché Discord</a>
           </li>
           <li>
-            <a href="#">link</a>
+            <a href="#">Nitro</a>
           </li>
           <li>
-            <a href="#">link</a>
+            <a href="#">Sicurezza</a>
           </li>
           <li>
-            <a href="#">link</a>
+            <a href="#">Assistenza</a>
           </li>
         </ul>
       </nav>
 
-      <div class="debug login">login</div>
+      <div class="login">
+        <div class="button small-button">Accedi</div>
+      </div>
 
     </div>
 
@@ -49,28 +57,28 @@
   <main>
     
     <section class="main-section">
-      <div class="container">
+      <div class="d-flex container">
         <div class="debug main-img"></div>
         <div class="debug main-text"></div>
       </div>
     </section>
 
     <section class="main-section main-section-grey">
-      <div class="container">
+      <div class="d-flex container">
         <div class="debug main-text"></div>
         <div class="debug main-img"></div>
       </div>
     </section>
 
     <section class="main-section">
-      <div class="container">
+      <div class="d-flex container">
         <div class="debug main-img"></div>
         <div class="debug main-text"></div>
       </div>
     </section>
 
     <section class="main-section main-section-grey">
-      <div class="container">
+      <div class="d-flex container">
         <div class="debug main-big"></div>
       </div>
     </section>
@@ -80,7 +88,7 @@
   <footer>
 
     <section class="footer-top">
-      <div class="container ftop-container">
+      <div class="container d-flex ftop-container">
         <div class="debug footer-big"></div>
         <div class="debug-white footer-small"></div>
         <div class="debug-white footer-small"></div>
@@ -90,8 +98,8 @@
     </section>
 
     <section class="footer-bottom">
-      <div class="container fbottom-container">
-        <div class="footer-end">
+      <div class="container d-flex fbottom-container">
+        <div class="d-flex footer-end">
           <div class="debug footer-logo">Logo</div>
           <div class="debug footer-button">Bottone</div>
         </div>
