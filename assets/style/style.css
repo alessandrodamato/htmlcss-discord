@@ -48,6 +48,11 @@ body{
   color: white;
 }
 
+.button.blue-button{
+  background-color: rgb(141, 161, 224);
+  color: white;
+}
+
 /* header */
 
 header{
@@ -103,7 +108,6 @@ section.jumbotron{
 
 section.jumbotron div.downloads{
   width: 900px;
-  height: 400px;
   padding: 50px;
   text-align: center;
   color: white;
@@ -124,13 +128,8 @@ section div .button{
 
 /* main */
 
-main .main-section{
-  width: 100%;
-  height: 100%;
-}
-
 main .main-section-grey{
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(245, 245, 245);
 }
 
 main div.container{
@@ -150,12 +149,12 @@ main section .main-text{
   padding: 70px 80px;
 }
 
-main section .main-text h2{
+main section .main-text h2, main section .main-big .main-big-title h2{
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
-main section .main-text p{
+main section .main-text p, main section .main-big p{
   font-size: 1.2rem;
 }
 
@@ -173,15 +172,32 @@ main section #roles{
 
 main section .main-big{
   width: 100%;
-  height: 900px;
-  background-color: rgb(34, 140, 34);
+  padding: 50px;
+  text-align: center;
+}
+
+main section .main-big .main-big-img{
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/item4-big.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+main section .main-big .main-big-star{
+  width: fit-content;
+  margin: auto;
+  padding: 50px 50px 0;
+  font-size: 1.8rem;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* footer */
 
 footer section {
-  width: 100%;
-  height: 100%;
   background-color: rgb(34, 38, 41);
 }
 
