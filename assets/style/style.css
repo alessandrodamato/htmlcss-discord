@@ -139,6 +139,25 @@ main div.container{
   padding: 60px 0;
 }
 
+main section .wave{
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/wave.svg);
+}
+
+main section .wave-flipped{
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/wave.svg);
+  transform: scale(-1, -1);
+}
+
+main section .wave.big-wave{
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/wave.svg);
+}
+
 main section .main-img{
   width: 60%;
   height: 500px;
